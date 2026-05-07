@@ -1,6 +1,6 @@
 #include<iostream>
 using namespace std;
-class First    //It is Class Crearte
+class First    //It is Class Creation
 {
     public:
     int Addition(int a,int b)   //Addition Fuction they are pass Two integer and return Sum 
