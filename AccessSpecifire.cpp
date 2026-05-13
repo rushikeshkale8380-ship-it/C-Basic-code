@@ -3,7 +3,7 @@ using namespace std;
 
 class Demo
 {
-    public:
+    public:    
     int i;
     private:
     int j;
@@ -11,7 +11,7 @@ class Demo
     int k;
     
     public:
-    Demo()
+    Demo()   //Constructor
     {
         i=0;
         j=0;
@@ -32,8 +32,8 @@ int main()
     dobj.Display();
 
     cout<<"Value of i:"<<dobj.i<<"\n";
-    cout<<"Value of j:"<<dobj.j<<"\n";   //Not Allowed (it is private not Accesable outside the class)
-    cout<<"Value of k:"<<dobj.k<<"\n";   //Not Allowed (it is protected not Accessable outside the class)
+    // cout<<"Value of j:"<<dobj.j<<"\n";   //Not Allowed (it is private not Accesable outside the class)
+   // cout<<"Value of k:"<<dobj.k<<"\n";   //Not Allowed (it is protected not Accessable outside the class)
 
     return 0;
 }
